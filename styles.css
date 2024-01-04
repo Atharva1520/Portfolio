@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(34, 34, 50);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background: linear-gradient(rgb(70, 70, 79), rgb(34, 34, 50));
+}
+.left {
+  font-size: 1.5rem;
+}
+section {
+  margin: 40px;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+}
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.firstSection > div {
+  width: 40%;
+}
+.text-gray {
+  color: gray;
+}
+.leftSection {
+  width: 50%;
+  font-size: 3rem;
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.name {
+  color: aqua;
+}
+#element {
+  color: aqua;
+}
+.rightSection img {
+  width: 100%;
+  margin: 50px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  color: rgb(103, 103, 144);
+  font-size: 1.02rem;
+}
+main {
+  height: 160vh;
+}
+main hr {
+  border: 0;
+  background: white;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical {
+  height: 100px;
+  width: 1px;
+  background-color: white;
+  margin: 0 290px;
+}
+.image-top {
+  height: 40px;
+  position: relative;
+  top: -40px;
+  left: -26px;
+}
+.vertical-text {
+  position: relative;
+  top: 64px;
+  width: 225px;
+  left: -4px;
+}
+.vertical-desc {
+  width: 225px;
+  color: gray;
+  font-size: 11px;
+  position: relative;
+  top: 70px;
+}
+
+footer {
+  background: linear-gradient(rgb(34, 34, 50), rgb(70, 70, 79));
+  height: 233px;
+}
+
+.footer {
+  display: flex;
+  margin: 23px 122px;
+}
